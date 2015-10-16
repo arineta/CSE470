@@ -5,7 +5,6 @@
     public int year() {
  
     	 return 1936;
-  
   }
    
  public String text() {
@@ -17,7 +16,6 @@
            return p+s;
   
   }
- 
    public String author() {
   
 
