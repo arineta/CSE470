@@ -10,9 +10,9 @@
    
  public String text() {
    
-     String p = "I don't care that they stole my idea . . \n";
+     String p = " I don't care that they stole my idea . . \n";
   
-       String s = "I care that they don't have any of their own. ";
+       String s = " I care that they don't have any of their own. ";
  
            return p+s;
   
