@@ -1,7 +1,7 @@
    package quote;
 
 
-	public class MAEyler implements Quotation {
+	public class YusufTanşu implements Quotation {
   
     public int year() {
  
