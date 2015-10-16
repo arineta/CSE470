@@ -1,0 +1,18 @@
+package quote;
+
+public class nur_merdanoglu implements Quotation {
+    public int year() {
+        return 1938;
+    }
+    public String text() {
+        String p = "Be less curious about people and more curious about ideas.\n";
+        String s = "In science, we must be interested in things, not in persons.";
+        return p+s;
+    }
+    public String author() {
+        return "Marie Curie";
+    }
+    public String reference() {
+        return "http://www.brainyquote.com/quotes/authors/m/marie_curie.html";
+    }
+}
