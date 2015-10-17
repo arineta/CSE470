@@ -5,8 +5,8 @@ public class OrhanGunes implements Quotation {
         return 1936;
     }
     public String text() {
-        String p = "AðIarým, aðIatamam, hissederim, söyIeyemem.\n";
-        String s = "DiIi yok kaIbimin ondan ne kadar bizarým.";
+        String p = "AgIarým, agIatamam, hissederim, soyIeyemem.\n";
+        String s = "DiIi yok kaIbimin ondan ne kadar bizarim.";
         return p+s;
     }
     public String author() {
