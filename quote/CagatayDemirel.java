@@ -12,6 +12,6 @@ public class CagatayDemirel implements Quotation {
         return "Edgar Allan Poe";
     }
     public String reference() {
-        return "http://www.brainyquote.com/quotes/authors/e/edgar_allan_poe.html#C5dlP9OV6GrrO82y.99";
+        return "http://www.brainyquote.com/quotes/quotes/e/edgarallan106522.html";
     }
 }
