@@ -19,7 +19,7 @@ public class NurullahAydogdu implements Quotation {
 
     public String author() {
 
-        return "Jhon Ruskin";
+        return "John Ruskin";
     }
 
     public String reference() {
