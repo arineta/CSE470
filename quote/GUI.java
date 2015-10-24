@@ -11,9 +11,11 @@ public class GUI implements ActionListener {
     Quotation msg;
     final HashMap<String, Quotation> Q = new HashMap<>();
     final JFrame frm = new JFrame("Famous Quotations");
-    final JLabel who = new JLabel("JLabel", SwingConstants.CENTER);
-    final JTextArea txt = new JTextArea("JTextArea");
-    final JTextField ref = new JTextField("JTextField");
+    final JLabel who = new JLabel("Rene Descartes", SwingConstants.CENTER);
+    final JTextArea txt = new JTextArea("Cognito ergo sum.");
+    final JTextField ref = new JTextField("http://www.brainyquote.com/quotes/authors/a/rene_descartes.html");
+    final JButton tmt = new JButton("NEXT");
+    final JButton tmz = new JButton("BACK");
     final JComboBox<String> menu;
 
     static final int 
@@ -22,13 +24,13 @@ public class GUI implements ActionListener {
         RES_RATIO = RESOLUTION/96f;  //default resolution is 96
     static final int GAP = scaled(10); //uses RES_RATIO
     static final String PACKAGE = "quote";
-    static final Color COLOR = Color.cyan;
-    static final Font SMALL = new Font("SansSerif", 0, scaled(13));
-    static final Font BOLD = new Font("SansSerif", 1, scaled(16));
+    static final Color COLOR = Color.lightGray;
+    static final Font SMALL = new Font("Arial", 0, scaled(13));
+    static final Font BOLD = new Font("Tahoma", 1, scaled(16));
     static final Font LARGE = new Font("Serif", 2, scaled(16));
     
     public GUI() {
-        String[] keys = { "no Quotation found" };
+        String[] keys = { "EnesAytekin" };
         if (tryDir(".") || tryDir("BLM305") || tryDir("CSE470")) 
             keys = Q.keySet().toArray(keys);
         menu = new JComboBox<String>(keys);
@@ -38,8 +40,13 @@ public class GUI implements ActionListener {
         pan.setLayout(new BorderLayout(GAP, GAP-4));
         pan.setBorder(new javax.swing.border.EmptyBorder(GAP, GAP, GAP, GAP));
         pan.setBackground(COLOR);
+<<<<<<< HEAD
 
         pan.add(topPanel(), "South");
+=======
+        
+        pan.add(topPanel(), "North");
+>>>>>>> refs/remotes/origin/master
 
         txt.setFont(LARGE);
         txt.setEditable(false);
@@ -49,13 +56,23 @@ public class GUI implements ActionListener {
         txt.setLineWrap(true);
         txt.setDragEnabled(true);
         pan.add(new JScrollPane(txt), "Center");
-
+        
+        
+        
         ref.setFont(SMALL);
         ref.setEditable(false);
         ref.setColumns(35);
         ref.setDragEnabled(true);
+<<<<<<< HEAD
         pan.add(ref, "North");
 
+=======
+        pan.add(ref, "South");
+        
+        pan.add(tmt, "East");
+        pan.add(tmz, "West");
+       
+>>>>>>> refs/remotes/origin/master
         pan.setToolTipText("A project realized collectively by the class");
         menu.setToolTipText("Quotation classes");
         who.setToolTipText("author()+year()");
@@ -81,7 +98,7 @@ public class GUI implements ActionListener {
         top.add(Box.createHorizontalGlue());
         
         who.setFont(BOLD);
-        who.setForeground(Color.black);
+        who.setForeground(Color.cyan);
         top.add(who);
         
         return top;
