@@ -40,8 +40,13 @@ public class GUI implements ActionListener {
         pan.setLayout(new BorderLayout(GAP, GAP-4));
         pan.setBorder(new javax.swing.border.EmptyBorder(GAP, GAP, GAP, GAP));
         pan.setBackground(COLOR);
+<<<<<<< HEAD
         
         pan.add(topPanel(), "North");
+=======
+
+        pan.add(topPanel(), "South");
+>>>>>>> refs/remotes/SmallSimpleSafe/master
 
         txt.setFont(LARGE);
         txt.setEditable(false);
@@ -58,11 +63,16 @@ public class GUI implements ActionListener {
         ref.setEditable(false);
         ref.setColumns(35);
         ref.setDragEnabled(true);
+<<<<<<< HEAD
         pan.add(ref, "South");
         
         pan.add(tmt, "East");
         pan.add(tmz, "West");
        
+=======
+        pan.add(ref, "North");
+
+>>>>>>> refs/remotes/SmallSimpleSafe/master
         pan.setToolTipText("A project realized collectively by the class");
         menu.setToolTipText("Quotation classes");
         who.setToolTipText("author()+year()");
