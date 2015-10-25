@@ -6,7 +6,7 @@ public class MusabBozkurt implements Quotation {
     }
     public String text() {
         String p = "You learn more from failure than from success;\n";
-        String s = "don’t let it stop you.Failure builds character.";
+        String s = "do not let it stop you.Failure builds character.";
         return p+s;
     }
     public String author() {
