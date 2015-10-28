@@ -2,7 +2,7 @@ package text;
 
 public class MusabBozkurt implements Processor {
     public String process(String input) {
-		//convert to uppercase and getting the hashcode of the string 
+		//convert to uppercase and getting the hashcode of the string. 
         return input.toUpperCase() + "\nHash code is : "  +input.hashCode();
 		
     }
