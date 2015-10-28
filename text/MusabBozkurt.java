@@ -2,7 +2,8 @@ package text;
 
 public class MusabBozkurt implements Processor {
     public String process(String input) {
-        return input.toUpperCase();
+        return input.toUpperCase() + input.getBytes();
+		
     }
     public String description(String source) {
         return source+" converted to upper case";
