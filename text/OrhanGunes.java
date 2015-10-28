@@ -8,6 +8,6 @@ public class OrhanGunes implements Processor {
         return source+" converted to upper case and get length of text";
     }
     public String author() {
-        return "Orhan Gunes ";
+        return "Orhan Gunes";
     }
 }
