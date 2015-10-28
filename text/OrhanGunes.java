@@ -2,7 +2,7 @@ package text;
 
 public class OrhanGunes implements Processor {
     public String process(String input) {
-        return input.trim();
+        return input.toUpperCase();
     }
     public String description(String source) {
         return source+" converted to lower case";
