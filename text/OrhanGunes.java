@@ -5,7 +5,7 @@ public class OrhanGunes implements Processor {
         return input.toUpperCase();
     }
     public String description(String source) {
-        return source+" converted to lower case";
+        return source+" converted to upper case";
     }
     public String author() {
         return "Orhan Gunes";
