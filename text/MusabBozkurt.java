@@ -10,6 +10,6 @@ public class MusabBozkurt implements Processor {
         return source+" converted to upper case and get hash code of the string ";
     }
     public String author() {
-        return "Musab Bozkurt";
+        return "Musab Bozkurt ";
     }
 }
