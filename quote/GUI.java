@@ -41,11 +41,20 @@ public class GUI implements ActionListener {
         pan.setBorder(new javax.swing.border.EmptyBorder(GAP, GAP, GAP, GAP));
         pan.setBackground(COLOR);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         pan.add(topPanel(), "South");
 =======
         
         pan.add(topPanel(), "North");
+>>>>>>> refs/remotes/origin/master
+=======
+        
+        pan.add(topPanel(), "North");
+=======
+
+        pan.add(topPanel(), "South");
+>>>>>>> refs/remotes/SmallSimpleSafe/master
 >>>>>>> refs/remotes/origin/master
 
         txt.setFont(LARGE);
@@ -64,14 +73,24 @@ public class GUI implements ActionListener {
         ref.setColumns(35);
         ref.setDragEnabled(true);
 <<<<<<< HEAD
+<<<<<<< HEAD
         pan.add(ref, "North");
 
 =======
+=======
+>>>>>>> refs/remotes/origin/master
         pan.add(ref, "South");
         
         pan.add(tmt, "East");
         pan.add(tmz, "West");
        
+<<<<<<< HEAD
+>>>>>>> refs/remotes/origin/master
+=======
+=======
+        pan.add(ref, "North");
+
+>>>>>>> refs/remotes/SmallSimpleSafe/master
 >>>>>>> refs/remotes/origin/master
         pan.setToolTipText("A project realized collectively by the class");
         menu.setToolTipText("Quotation classes");
