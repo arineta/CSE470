@@ -16,6 +16,6 @@ public class EnesAytekin implements Processor {
         return source+" added '*' all words at the end and transformed bigger version of input.";
     }
     public String author() {
-        return "Enes Aytekin";
+        return "EnesAytekin";
     }
 }
