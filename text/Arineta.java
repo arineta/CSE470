@@ -1,13 +1,13 @@
 package text;
 
-public class Arineta implements Processor {
+public class Arineta implements Ari_processor {
     public String process(String input) {
         return input.toLowerCase();
     }
     public String description(String source) {
-        return source+" converted to UPPERCASE case";
+        return source+" converted to lower case";
     }
     public String author() {
-        return "ARINETA";
+        return "arineta";
     }
 }
